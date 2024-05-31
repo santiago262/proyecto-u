@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 K_global, F_ext_vector, desplazamientos = ensamblar_matriz_global(nodos, elementos, nodos_restringidos, F_ext, E, A)
 
 # Mostrar la matriz de rigidez global
@@ -9,3 +10,6 @@ print(F_ext_vector)
 
 print("\nDesplazamientos nodales:")
 print(desplazamientos)
+=======
+CREATE TABLE materiales (id INT AUTO_INCREMENT PRIMARY KEY,nombre VARCHAR(255) NOT NULL UNIQUE,E DOUBLE NOT NULL,densidad INT NOT NULL,costo_por_kg DOUBLE NOT NULL,imagen_url VARCHAR(255) NOT NULL);
+>>>>>>> a9c76ab1e6dedc8b01e9d0500388a34a19bceccb
