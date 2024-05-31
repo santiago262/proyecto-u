@@ -1,0 +1,11 @@
+K_global, F_ext_vector, desplazamientos = ensamblar_matriz_global(nodos, elementos, nodos_restringidos, F_ext, E, A)
+
+# Mostrar la matriz de rigidez global
+print("Matriz de rigidez global de la estructura:")
+print(K_global)
+
+print("\nVector de fuerzas externas:")
+print(F_ext_vector)
+
+print("\nDesplazamientos nodales:")
+print(desplazamientos)
